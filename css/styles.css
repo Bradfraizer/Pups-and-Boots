@@ -1,0 +1,54 @@
+.navbar-brand {
+
+}
+
+body {
+  background-image: url(../img/bg-watercolor.jpg);
+  background-attachment: fixed;
+
+}
+
+header {
+  font-family: Georgia, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.intro {
+  font-family: cursive;
+  font-weight: bold;
+  color: #000;
+}
+
+.alert-danger {
+  margin-top: 20px;
+  margin-bottom: 120px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  width: 100%;
+}
+
+.pup {
+  border-radius: 0%;
+}
+
+img {
+  width: 50%;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+p {
+  color: #ff00ff;
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+strong {
+  font-family: cursive;
+  color: #990099;
+}
+
+em {
+  color: #990099;
+}

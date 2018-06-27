@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="twitter:" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pups and Boots</title>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="row">
+        <div class="col-xs-12 col-xs-push-3">
+          <a class="navbar-brand" href="index.html"><strong>PUPS &amp; BOOTS</strong></a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+        <div class="page-header">
+          <h1 class="header text-center"> BOOTSTRAP / EMMET </h1>
+          <h2 class="header text-center"> Home Practice </h2>
+        </div>
+      </section>
+    </header>
+
+      <section class="container">
+        <div class="intro text-center">
+          <h3>A Quick Review of Bootstrap: Rows, Columns, and Puppies</h3>
+        </div>
+        <div class="alert alert-danger alert-dismissible text-center" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+          <h3>Warning:  Dangerously Cute Images Ahead!</h3>
+          <br>
+          <h5>(Window can be closed)</h5>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-xs-push-3">
+            <a class="image-links" href="img/puppy1.PNG">
+              <img src="img/puppy1.PNG" alt="" class="puppies">
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a class="image-links" href="img/puppy2.PNG">
+              <img src="img/puppy2.PNG" alt="" class="puppies">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="text-center">
+          <p> In this example, I have two images taking up all twelve columns with an equal width <em>(6)</em>.  To position them in the middle, the
+          first image needed to be <em>pushed</em> over three column slots with the <em>col-[size]-push-3</em> class.
+          </p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="image-links" href="img/puppy7.PNG">
+              <img src="img/puppy7.PNG" alt="" class="puppies col-xs-">
+            </a>
+          </div>
+          <div class="col-xs-6 col-xs-push-3">
+            <a class="image-links" href="img/puppy8.PNG">
+              <img src="img/puppy8.PNG" alt="" class="puppies col-xs-">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div>
+          <p>In this second example, I have two images taking up all twelve columns with an equal width <em>(6)</em>, but in order allign them to the outer walls of
+             their container the second image needed to be <em>pushed</em> over with the <em>col-[size]-push-3</em> class.</p>
+        </div>
+      </section>
+
+      <section class="container ">
+        <div class="row">
+          <div class="col-xs-12 col-xs-pull-3">
+            <a class="image-links" href="img/puppy13.PNG">
+              <img class="pup" src="img/puppy13.PNG" alt="">
+            </a>
+              <div class="col-xs-6 col-xs-push-9">
+                <a class="image-links" href="img/puppy11.PNG">
+                  <img class="pup" src="img/puppy11.PNG" alt="">
+                </a>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <p>
+            In this third example, I am having fun with <em>nesting</em> column items.  To achieve this, instead of creating sibling <em>divs</em> that house my images,
+            I needed to make the back image <em>div</em> the parent to the second image.  The first image recieved the <em>col-[size]-12</em> class and <em>col-[size]-pull-3</em>
+            class to center it on the page.  The second image was given the classes of <em>col[size]-6</em> and <em>col[size]-push-9</em> to nest it nicely in it's parent image.
+          </p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-4 col-xs-push-3">
+            <a class="image-links" href="img/puppy3.PNG">
+              <img class="puppies" src="img/puppy3.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-push-1">
+            <a class="image-links" href="img/puppy6.PNG">
+              <img class="puppies" src="img/puppy6.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-pull-1">
+            <a class="image-links" href="img/puppy5.PNG">
+              <img class="puppies" src="img/puppy5.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              In this fourth example, I have three pictures taking up all twelve columns with equal widths <em>(4)</em>.  The first image is <em>pushed</em> over with the
+              <em>col-[size]-push-3</em> class while the second image and third images are <em>pushed</em> towards the right side with the <em>col-[size]-pull-1</em>
+              class.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-4 col">
+            <a class="image-links" href="img/puppy8.PNG">
+              <img class="puppies" src="img/puppy8.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-push-1">
+            <a class="image-links" href="img/puppy9.PNG">
+              <img class="puppies" src="img/puppy9.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-push-2">
+            <a class="image-links" href="img/puppy10.PNG">
+              <img class="puppies" src="img/puppy10.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              In this fifth example, I have three images of taking up equal sized columns <em>(4)</em> and are spaced evenly on the row.  In order to achieve that, the second
+              image needed to be <em>pushed</em> over one position and the third image <em>pushed</em> two.  They were assigned the <em>col-[size]-4</em> and <em>col-[size]-push-*</em>
+              classes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <a class="image-links" href="img/puppy12.PNG">
+              <img class="puppies" src="img/puppy12.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-pull-2">
+            <a class="image-links" href="img/puppy14.PNG">
+              <img class="puppies" src="img/puppy14.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-pull-4">
+            <a class="image-links" href="img/puppy15.PNG">
+              <img class="puppies" src="img/puppy15.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              For example six, all three of the images are assigned the same column size <em>(4)</em> and are <em>pulled</em> over to the left margin of their ccontainer.
+              To accomplish this, image two was given the <em>col[size]-pull-2</em> class while the second image recieved <em>col-[size]-pull-4</em>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-4 col-xs-push-6">
+            <a class="image-links" href="img/puppy16.PNG">
+              <img class="puppies" src="img/puppy16.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-push-4">
+            <a class="image-links" href="img/puppy17.PNG">
+              <img class="puppies" src="img/puppy17.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-push-2">
+            <a class="image-links" href="img/puppy18.PNG">
+              <img class="puppies" src="img/puppy18.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              In example seven, there are three images with equal width <em>(4)</em> all hugging the right side of the container.  To achieve this, I needed to give image one the class
+              of <em>col-[size]-push-6</em>, the second image <em>col-[size]-push-4</em> and the third image <em>col-[size]-push-2</em>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <a class="image-links" href="img/puppy19.PNG">
+              <img class="puppies" src="img/puppy19.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-3">
+            <a class="image-links" href="img/puppy20.PNG">
+              <img class="puppies" src="img/puppy20.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-3 col-xs-push-1">
+            <a class="image-links" href="img/puppy21.PNG">
+              <img class="puppies" src="img/puppy21.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-3 col-xs-push-1">
+            <a class="image-links" href="img/puppy22.PNG">
+              <img class="puppies" src="img/puppy22.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              For example eigth, I have switched things up and added an additional image onto the row.  To fit it in the row that contains only 12 columns, each image
+              was given an equal column width of <em>3 (3&times;4)</em>. Only two of the images required <em>pushing</em> and those were the images three and four on the right side.
+              To move them, I applied the <em>col-[size]-push-1</em> class to them both.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <a class="image-links" href="img/puppy23.PNG">
+              <img class="puppies" src="img/puppy23.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-3 col-xs-push-1">
+            <a class="image-links" href="img/puppy24.PNG">
+              <img class="puppies" src="img/puppy24.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-3">
+            <a class="image-links" href="img/puppy25.PNG">
+              <img class="puppies" src="img/puppy25.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-3 col-xs-push-1">
+            <a class="image-links" href="img/puppy26.PNG">
+              <img class="puppies" src="img/puppy26.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              As you can see in example nine, we are still using four images with an equal width <em>(4)</em> on the row.  Images two and three are hugging the middle, while images
+              one and four are at the corner of their container.  To get the desired alignment, images two and four were given the <em>col-[size]-push-1</em> class.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy27.PNG">
+              <img class="puppies" src="img/puppy27.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy28.PNG">
+              <img class="puppies" src="img/puppy28.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy29.PNG">
+              <img class="puppies" src="img/puppy29.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy30.PNG">
+              <img class="puppies" src="img/puppy30.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy31.PNG">
+              <img class="puppies" src="img/puppy31.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy32.PNG">
+              <img class="puppies" src="img/puppy32.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy33.PNG">
+              <img class="puppies" src="img/puppy33.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy34.PNG">
+              <img class="puppies" src="img/puppy34.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy35.PNG">
+              <img class="puppies" src="img/puppy35.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy36.PNG">
+              <img class="puppies" src="img/puppy36.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy37.PNG">
+              <img class="puppies" src="img/puppy37.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-xs-1">
+            <a class="image-links" href="img/puppy38.PNG">
+              <img class="puppies" src="img/puppy38.PNG" alt="">
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="text-center">
+            <p>
+              In example ten, we have twelve images of equal width <em>(1)</em> on the row, taking up ever every available column slot on the grid.  No adjustments were neccessary.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
